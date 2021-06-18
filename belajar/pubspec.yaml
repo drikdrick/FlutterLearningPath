@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -61,10 +61,10 @@ flutter:
   fonts:
     - family : Staatliches
       fonts :
-        - asset: fonts/Staatliches-Regular.ttf
+        - asset: fonts/Staatliches/Staatliches-Regular.ttf
     - family : Oxygen
       fonts :
-        - asset: fonts/Oxygen-Regular.ttf
+        - asset: fonts/Oxygen/Oxygen-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
